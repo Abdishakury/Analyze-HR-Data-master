@@ -13,3 +13,5 @@ This case study aims to model the probability of attrition of each employee from
 
 All the files of this project are saved in a [GitHub repository].
 
+![image](https://user-images.githubusercontent.com/83236722/136469882-4ac13145-e32c-432d-935b-9fb64c630597.png)
+
