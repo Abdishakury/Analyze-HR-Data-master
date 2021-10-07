@@ -88,95 +88,29 @@ All the files of this project are saved in a [GitHub repository].
 
 ![image](https://user-images.githubusercontent.com/83236722/136472636-f2ada51e-63d4-4dad-8fd9-10f1679496bf.png)
 
-10-fold cross validation average accuracy: 0.963
+![image](https://user-images.githubusercontent.com/83236722/136472874-6f975aef-f548-4632-a3b3-93e86bb12e49.png)
 
-Iteration  1 | Accuracy: 0.96
-Iteration  2 | Accuracy: 0.95
-Iteration  3 | Accuracy: 0.96
-Iteration  4 | Accuracy: 0.95
-Iteration  5 | Accuracy: 0.96
-Iteration  6 | Accuracy: 0.95
-Iteration  7 | Accuracy: 0.97
-Iteration  8 | Accuracy: 0.97
-Iteration  9 | Accuracy: 0.97
-Iteration 10 | Accuracy: 0.98
+![image](https://user-images.githubusercontent.com/83236722/136472913-a5a6dda2-43a9-4297-a54e-d6c61e541b13.png)
 
-Accuracy on test: 0.957
+![image](https://user-images.githubusercontent.com/83236722/136472934-ec33208b-641d-4e11-840d-e87c04106b0f.png)
 
-              precision    recall  f1-score   support
+![image](https://user-images.githubusercontent.com/83236722/136472969-2cca2c08-9f5b-46ac-81ee-d485b7cd96b1.png)
 
-           0       0.98      0.97      0.97      3435
-           1       0.90      0.92      0.91      1065
+![image](https://user-images.githubusercontent.com/83236722/136472995-cba98bff-0372-4dd2-8fd0-c1a802cf1020.png)
 
-   micro avg       0.96      0.96      0.96      4500
-   macro avg       0.94      0.95      0.94      4500
-weighted avg       0.96      0.96      0.96      4500
+![image](https://user-images.githubusercontent.com/83236722/136473030-2afda618-a81e-45ab-913c-ee183a9794ef.png)
 
-Confusion Matrix:
-[[3321  114]
- [  81  984]]
+![image](https://user-images.githubusercontent.com/83236722/136473063-b77a2511-0740-47a5-a54f-d601dc666c5d.png)
 
-                                       Feature      Coef.
-0                                   intercept.  17.979973
-1                                Work_accident  -1.539814
-2                        promotion_last_5years  -0.873542
-3                                       salary  -0.822126
-4                                department_IT  -3.552008
-5                             department_RandD  -3.639017
-6                        department_accounting  -3.180176
-7                                department_hr  -2.710086
-8                        department_management  -3.366177
-9                         department_marketing  -3.216680
-10                      department_product_mng  -3.248802
-11                            department_sales  -3.247247
-12                          department_support  -2.799619
-13                        department_technical  -2.786227
-14                            workload_extreme   1.227670
-15                               workload_high  -1.370041
-16                                workload_low  -0.331572
-17                             workload_normal  -2.301065
-18                           workload_very low  -2.294460
-19       time_spend_company_cat_high departure  -2.357160
-20        time_spend_company_cat_low departure  -3.895673
-21         time_spend_company_cat_no departure  -4.218755
-22  time_spend_company_cat_very high departure   0.009826
-23           average_montly_hours_bin_(0, 125]  -2.294460
-24         average_montly_hours_bin_(125, 131]  -1.624161
-25         average_montly_hours_bin_(131, 161]  -2.149702
-26         average_montly_hours_bin_(161, 216]  -2.380130
-27         average_montly_hours_bin_(216, 274]  -2.063447
-28         average_montly_hours_bin_(274, 287]  -1.517476
-29         average_montly_hours_bin_(287, 310]   1.227670
-30            last_evaluation_bin_(0.00, 0.44]  -1.594999
-31            last_evaluation_bin_(0.44, 0.57]  -2.717905
-32            last_evaluation_bin_(0.57, 0.76]  -2.229557
-33            last_evaluation_bin_(0.76, 1.00]  -3.532066
-34         attitude_happy and high performance   0.667297
-35                    attitude_low performance  -1.594999
-36                             attitude_normal  -1.273042
-37                            attitude_unhappy  -1.750187
-38        attitude_unhappy and low performance   0.763155
-39                         attitude_very happy  -3.146609
-40                       attitude_very unhappy   1.794301
-41                    project_performance_high  -0.362548
-42                     project_performance_low   0.353313
-43                  project_performance_normal  -1.388324
-44                project_performance_very low  -1.594999
-45                  number_project_cat_extreme   1.971823
-46                   number_project_cat_normal  -3.373701
-47                 number_project_cat_too high  -2.785609
-48                  number_project_cat_too low  -3.104655
-49         satisfaction_level_bin_(0.00, 0.11]   1.794301
-50         satisfaction_level_bin_(0.11, 0.35]  -2.184787
-51         satisfaction_level_bin_(0.35, 0.46]  -1.079961
-52         satisfaction_level_bin_(0.46, 0.71]  -2.742574
-53         satisfaction_level_bin_(0.71, 0.92]  -2.136022
-54         satisfaction_level_bin_(0.92, 1.00]  -3.187208
-55                             efficiency_high   0.772209
-56                              efficiency_low   1.066479
-57                           efficiency_normal  -0.387084
-58                         efficiency_very low  -3.708358
+![image](https://user-images.githubusercontent.com/83236722/136473090-a1ecc603-4f03-4efc-8807-e7644822428f.png)
 
-The accuracy is consistent with the initial dataset. The RFE algorithm is used to find the most relevant features.
+![image](https://user-images.githubusercontent.com/83236722/136473115-784631bf-f9bf-42f6-89d9-56586adfb2a5.png)
+
+![image](https://user-images.githubusercontent.com/83236722/136473178-f5de6159-723d-4638-b5de-a41433d4a6eb.png)
+
+The resulting accuracy is still really good, which confirms that the initial model didn't have bias due to the imbalance of the dataset.
+
+The high accuracy is anyway driven by the binned features tailored to the dataset. If they work really well for this data, it might not be the case for another dataset. The features should instead be set using standard binning approach, which wouldn't fit as well the data but which would be adaptable to any dataset. That solution would be recommended if the model has to be run in production.
+
 
 
